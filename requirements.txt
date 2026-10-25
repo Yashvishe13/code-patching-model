@@ -1,0 +1,23 @@
+# Main environment: inference, teacher collection, GRPO, and grading.
+# Install into a Python 3.11 env (CUDA 12.x GPU for the student; CPU is fine for the teacher).
+#   pip install -r requirements.txt
+# Torch is the +cu128 build; adjust the CUDA suffix / index-url to your driver if needed.
+
+torch==2.11.0
+transformers==5.20.2
+peft==0.21.2
+accelerate==1.15.0
+safetensors==0.8.0
+tokenizers==0.23.3
+numpy==2.4.6
+
+# Teacher (Azure OpenAI Responses API) + .env loading
+openai==3.36.1
+python-dotenv==1.2.4
+
+# Sandboxed grading: rootless containers, no Docker daemon / no sudo
+udocker==1.3.17
+
+# Optional: used only by the (disabled-by-default) CodeBLEU reward in pb/reward.py
+codebleu==0.7.0
+tree-sitter==0.22.3

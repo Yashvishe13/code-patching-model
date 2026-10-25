@@ -1,0 +1,13 @@
+# SFT environment (SEPARATE from requirements.txt).
+# Unsloth pins its own transformers version, so SFT runs in its own Python 3.11 env:
+#   pip install -r requirements-sft.txt
+# Only pb/sft.py uses this env. Everything else (collect, grpo, eval) uses requirements.txt.
+
+unsloth==2026.10.7
+torch==2.11.0
+transformers==5.17.0
+peft==0.21.2
+accelerate==1.15.0
+trl==1.15.0
+xformers==0.0.35
+bitsandbytes==0.50.2
