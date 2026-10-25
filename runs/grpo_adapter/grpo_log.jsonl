@@ -1,0 +1,14 @@
+{"step": 1, "mean_reward": 0.0875, "resolved": 0, "edits": 3, "submits": 2, "n_updates": 8, "reward_mode": "shaped", "pg": 0.0623, "kl": 0.0, "seconds": 394}
+{"step": 2, "mean_reward": 0.1063, "resolved": 0, "edits": 2, "submits": 2, "n_updates": 8, "reward_mode": "shaped", "pg": -0.1287, "kl": 0.0001, "seconds": 561}
+{"step": 3, "mean_reward": 0.1313, "resolved": 0, "edits": 3, "submits": 3, "n_updates": 8, "reward_mode": "shaped", "pg": -0.0, "kl": 0.0012, "seconds": 1047}
+{"step": 4, "mean_reward": 0.0375, "resolved": 0, "edits": 1, "submits": 1, "n_updates": 8, "reward_mode": "shaped", "pg": -0.0165, "kl": 0.0016, "seconds": 841}
+{"step": 5, "mean_reward": 0.0, "resolved": 0, "edits": 0, "submits": 0, "n_updates": 0, "reward_mode": "shaped", "pg": 0.0, "kl": 0.0, "seconds": 1010}
+{"step": 6, "mean_reward": 0.0938, "resolved": 0, "edits": 2, "submits": 1, "n_updates": 8, "reward_mode": "shaped", "pg": -0.017, "kl": 0.0029, "seconds": 695}
+{"step": 7, "mean_reward": 0.0188, "resolved": 0, "edits": 0, "submits": 0, "n_updates": 4, "reward_mode": "shaped", "pg": -0.0307, "kl": 0.0088, "seconds": 1152}
+{"step": 8, "mean_reward": 0.1188, "resolved": 0, "edits": 3, "submits": 2, "n_updates": 8, "reward_mode": "shaped", "pg": 0.2669, "kl": 0.0042, "seconds": 487}
+{"step": 9, "mean_reward": 0.0812, "resolved": 0, "edits": 2, "submits": 1, "n_updates": 4, "reward_mode": "shaped", "pg": -0.0072, "kl": 0.0016, "seconds": 1073}
+{"step": 10, "mean_reward": 0.0563, "resolved": 0, "edits": 1, "submits": 1, "n_updates": 4, "reward_mode": "shaped", "pg": -0.0572, "kl": 0.0015, "seconds": 481}
+{"step": 11, "mean_reward": 0.0813, "resolved": 0, "edits": 2, "submits": 1, "n_updates": 8, "reward_mode": "shaped", "pg": -0.0086, "kl": 0.0007, "seconds": 1630}
+{"step": 12, "mean_reward": 0.0625, "resolved": 0, "edits": 2, "submits": 1, "n_updates": 8, "reward_mode": "shaped", "pg": -0.0001, "kl": 0.0033, "seconds": 727}
+{"step": 13, "mean_reward": 0.1875, "resolved": 0, "edits": 4, "submits": 4, "n_updates": 4, "reward_mode": "shaped", "pg": 0.0316, "kl": 0.0023, "seconds": 1381}
+{"step": 14, "mean_reward": 0.0688, "resolved": 0, "edits": 2, "submits": 2, "n_updates": 8, "reward_mode": "shaped", "pg": 0.1162, "kl": 0.0031, "seconds": 615}

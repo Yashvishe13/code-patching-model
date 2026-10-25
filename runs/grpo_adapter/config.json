@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "sft_adapter": "runs/sft_all/adapter",
+  "name": "grpo_all",
+  "steps": 20,
+  "cves_per_step": 2,
+  "k": 4,
+  "max_turns": 40,
+  "lr": 1e-05,
+  "beta": 0.02,
+  "reward": "shaped",
+  "seed": 0
+}

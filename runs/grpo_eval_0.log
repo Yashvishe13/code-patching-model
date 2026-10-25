@@ -1,0 +1,56 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<01:05,  4.76it/s]Loading weights:  39%|███▉      | 122/311 [00:00<00:00, 491.07it/s]Loading weights:  68%|██████▊   | 211/311 [00:00<00:00, 632.35it/s]Loading weights:  97%|█████████▋| 303/311 [00:00<00:00, 721.49it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 598.78it/s]
+[CVE-2022-4643 Go] 1 attempts
+    -> resolved=False stop=submit turns=9 (60.3s)
+[CVE-2023-25173 Go] 1 attempts
+    -> resolved=False stop=no_tool_call turns=23 (106.9s)
+[CVE-2023-40029 Go] 1 attempts
+    -> resolved=False stop=no_tool_call turns=4 (128.4s)
+[CVE-2025-24806 Go] 1 attempts
+    -> resolved=False stop=max_turns turns=40 (111.8s)
+[CVE-2023-23947 Go] 1 attempts
+    -> resolved=False stop=submit turns=8 (218.7s)
+[CVE-2022-0512 JavaScript] 1 attempts
+    -> resolved=False stop=submit turns=5 (45.6s)
+[CVE-2020-7649 JavaScript] 1 attempts
+    -> resolved=False stop=no_tool_call turns=7 (36.4s)
+[CVE-2021-46561 JavaScript] 1 attempts
+    -> resolved=False stop=submit turns=5 (40.8s)
+[CVE-2022-24794 JavaScript] 1 attempts
+    -> resolved=False stop=no_tool_call turns=3 (30.4s)
+[CVE-2017-16025 JavaScript] 1 attempts
+    -> resolved=False stop=no_tool_call turns=4 (47.0s)
+[CVE-2022-21683 Python] 1 attempts
+    -> resolved=False stop=submit turns=4 (21.2s)
+[CVE-2023-29159 Python] 1 attempts
+    -> resolved=False stop=submit turns=8 (56.3s)
+[CVE-2022-36087 Python] 1 attempts
+    -> resolved=False stop=submit turns=11 (50.3s)
+[CVE-2022-31506 Python] 1 attempts
+    -> resolved=False stop=submit turns=5 (35.8s)
+[CVE-2021-31542 Python] 1 attempts
+    -> resolved=False stop=submit turns=4 (37.9s)
+{
+  "episodes": 29,
+  "cves": 29,
+  "resolved_episodes": 0,
+  "cves_with_a_success": 0,
+  "by_language": {
+    "Go": {
+      "episodes": 10,
+      "resolved": 0
+    },
+    "JavaScript": {
+      "episodes": 10,
+      "resolved": 0
+    },
+    "Python": {
+      "episodes": 9,
+      "resolved": 0
+    }
+  },
+  "stop_reasons": {
+    "submit": 16,
+    "no_tool_call": 12,
+    "max_turns": 1
+  }
+}

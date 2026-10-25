@@ -1,0 +1,25 @@
+{
+  "episodes": 30,
+  "cves": 30,
+  "resolved_episodes": 0,
+  "cves_with_a_success": 0,
+  "by_language": {
+    "Go": {
+      "episodes": 10,
+      "resolved": 0
+    },
+    "JavaScript": {
+      "episodes": 10,
+      "resolved": 0
+    },
+    "Python": {
+      "episodes": 10,
+      "resolved": 0
+    }
+  },
+  "stop_reasons": {
+    "submit": 16,
+    "no_tool_call": 12,
+    "max_turns": 2
+  }
+}
